@@ -1,0 +1,271 @@
+ <!DOCTYPE html>
+<head>
+
+<html lang="es">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta charset="utf-8">
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="../css/index.css">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet"> 
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Oswald&display=swap" rel="stylesheet"> 
+
+
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+
+<!-- ------------------login pop up------------------------ -->
+  <div id="cuerpoDivLogin">
+  <div class="login" id="divLogin">
+    <div class="login-screen">
+      <div class="app-title">
+        <h1>Login</h1>
+      </div>
+
+      <div class="login-form">
+        <div class="control-group">
+        <input type="text" class="login-field" value="" placeholder="username" id="login-name">
+        <label class="login-field-icon fui-user" for="login-name"></label>
+        </div>
+
+        <div class="control-group">
+        <input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+        <label class="login-field-icon fui-lock" for="login-pass"></label>
+        </div>
+
+        <a class="btn btn-primary btn-large btn-block" href="#">login</a>
+        <a class="btn btn-primary btn-large btn-block" href="#">Crear cuenta</a>
+        <a class="btn btn-primary btn-large btn-block" id="cancelarLogin" href="#">Cancelar</a>
+        <a class="login-link" href="#">Lost your password?</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- --------- nav bar------
+ -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">      <img src="img-index/los pollos hermanos.png" alt="" width="115" height="90"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+<!--         <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos benéficos</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="menuLinkBoton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" id="sobreProyecto" href="#" tabindex="-1" aria-disabled="true">Sobre este proyecto</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+
+      </form>
+      <button type="button" class="btn btn-warning" id="login">Log in</button>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- ------nav bar-----  -->
+
+
+
+
+<h2 class="w3-center">Y vos, ¿Qué vas a llevar?</h2>
+
+<div class="card text-center">
+
+
+  <div class="card-body" id="indexBarra">
+
+
+    <h5 class="card-title">Podés acercarte a nuestra sucursal de Av. Cabildo 1965</h5>
+    <p class="card-text">O realizar tu pedido online apretado en el botón de abajo</p>
+    <a href="#" class="btn btn-primary" id="menuLinkBoton2">Hacer pedido</a>
+
+  </div>
+  <div class="card border-danger mb-3" id="iniciativasSolidarias" style="max-width: 18rem;">
+  <div class="card-header bg-transparent border-success" style="font-weight: bold">Primero la comunidad</div>
+  <div class="card-body ">
+    <h5 class="card-title">Conocé más sobre nuestras iniciativas solidarias</h5>
+    <p class="card-text">En Los Pollos Hermanos estamos convencidos de nuestro rol en el desarrollo y bienestar de nuestra comunidad.</p>
+  </div>
+  <a href="#cuerpoProyectos" class="card-footer bg-transparent border-success" id="haceClickAca">Hacé click acá para conocer más</a>
+</div>
+
+
+</div>
+
+
+<!-- ----------carrusel----------- -->
+
+
+<div class="slideshow-container">
+
+<div class="slide">
+  <div class="numbertext">1 / 3</div>
+  <img src="img-index/pollos1.jpg" style="width:100%" class="imagenesCarrusel">
+  <div class="text">Conoces nuestra nueva merch? pronto podrás adquirirla en nuestros locales</div>
+</div>
+
+<div class="slide">
+  <div class="numbertext">2 / 3</div>
+  <img src="img-index/pollos2.jpg" style="width:100%" class="imagenesCarrusel">
+  <div class="text">Nuevos diseño de interiores en nuestros locales</div>
+</div>
+
+<div class="slide">
+  <div class="numbertext">3 / 3</div>
+  <img src="img-index/pollos3.jpg" style="width:100%" class="imagenesCarrusel">
+  <div class="text">Visitaste nuestro nuevo local de Once? Av Yrigoyen 1600.</div>
+</div>
+
+ <a class="prev" id="preve">❮</a>
+<a class="next" id="nexte">❯</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+
+
+
+<div id="espacio"></div>
+<h5 id="titulosProyectos">Nuestros proyectos solidarios</h5>
+<h1 id="subtituloProyectos">¡Colocá el cursor del mouse sobre las imagenes para conocer nuestras propuestas!</h1>
+
+<div id="cuerpoProyectos">
+
+<!-- ----------divs proyectos-------- -->
+
+<div class="proyectos">
+  <div>
+    <div class="image">
+    <img class="image__img" src="img-index/charity.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">Doná tu vuelto</div>
+        <p class="image__description">
+A través de pequeños aportes podemos hacer grandes cosas; Pollos Hermanos se encarga de que cada centavo recaudado llegue a una ONG.        </p>
+    </div>
+    <div class="tituloProyecto">Doná tu vuelto</div>
+</div>
+
+  </div>
+  <div><div class="image">
+    <img class="image__img" src="img-index/charity1.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">#barriosVerdes</div>
+        <p class="image__description">
+            Por cada 50 combos "Pollos Hermanos" vendidos nos comprometemos a plantar un árbol.
+        </p>
+    </div>
+        <div class="tituloProyecto">#barriosVerdes</div>
+</div>
+</div>
+</div>
+
+<div class="proyectosLineaDe3">
+  <div><div class="image">
+    <img class="image__img" src="img-index/charity2.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">Maratones solidarias</div>
+        <p class="image__description">
+            Maratones de 2.5k, 5k y 10k para fomentar habitos saludables.
+        </p>
+    </div>
+        <div class="tituloProyecto">Maratones solidarias</div>
+</div>
+</div>
+  <div><div class="image">
+    <img class="image__img" src="img-index/charity3.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">Tu opinion nos importa</div>
+        <p class="image__description">
+            Registramos todas las opiniones de nuestros usuarios y en base a ellas nos aseguramos de brindar el mejor servicio.
+        </p>
+    </div>
+    <div class="tituloProyecto">Tu opinion nos importa</div>
+</div>
+</div>
+  <div><div class="image">
+    <img class="image__img" src="img-index/charity4.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">Cruz Roja</div>
+        <p class="image__description">
+            Trabajamos codo a codo con la Cruz Roja para ayudar y auxiliar a los más necesitados.
+        </p>
+    </div>
+    <div class="tituloProyecto">Pollos Hermanos y la Cruz Roja</div>
+</div>
+</div>
+</div>
+
+<div class="proyectos">
+  <div><div class="image">
+    <img class="image__img" src="img-index/charity5.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">Colecta de ropa</div>
+        <p class="image__description">
+            ¡Participá de nuestra colecta anual de ropa y ganá grandes premios!
+        </p>
+    </div>
+    <div class="tituloProyecto">Colecta de ropa</div>
+</div>
+</div>
+  <div><div class="image">
+    <img class="image__img" src="img-index/charity6.jpg" alt="Bricks">
+    <div class="image__overlay image__overlay--primary">
+        <div class="image__title">Formando el futuro</div>
+        <p class="image__description">
+            Gracias a nuestro proyectos de formación profesional más de 300 jovenes se han formado en finanzas, participando de proyectos y ayudando a sus comunidades.
+        </p>
+    </div>
+    <div class="tituloProyecto">Formando el futuro</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+</body>
+
+<script type="text/javascript" src="../js/index.js"></script>
+
+
+</html> 

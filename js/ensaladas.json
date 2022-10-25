@@ -1,0 +1,46 @@
+[
+// ------------ensaladas-----------
+  {
+    "nombre": "Ensalada de wea",
+    "descripcion": "Ensalada con atún, cebolla y tomate", 
+    "foto": "sanguches.jpg",
+    "precio": 990
+  },
+  {
+    "nombre": "Ensalada de atun",
+    "descripcion": "Ensalada con atún, cebolla y tomate", 
+    "foto": "sanguches.jpg",
+    "precio": 990
+  },
+  {
+    "nombre": "Ensalada de atun",
+    "descripcion": "Ensalada con atún, cebolla y tomate", 
+    "foto": "sanguches.jpg",
+    "precio": 990
+
+  },
+    {
+    "nombre": "Ensalada de atun",
+    "descripcion": "Ensalada con atún, cebolla y tomate", 
+    "foto": "../html/img-index/menuJSON/sanguches.jpg",
+    "precio": 990
+
+  },  
+  {
+    "nombre": "Ensalada de atun",
+    "descripcion": "Ensalada con atún, cebolla y tomate", 
+    "foto": "sanguches.jpg",
+    "precio": 990
+
+  },  
+  {
+    "nombre": "Ensalada de atun",
+    "descripcion": "Ensalada con atún, cebolla y tomate", 
+    "foto": "sanguches.jpg",
+    "precio": 990
+
+  },
+
+
+
+];

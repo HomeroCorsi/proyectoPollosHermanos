@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="../css/menuJson.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+
+    <!-- ------------------login pop up------------------------ -->
+  <div id="cuerpoDivLogin">
+  <div class="login" id="divLogin">
+    <div class="login-screen">
+      <div class="app-title">
+        <h1>Login</h1>
+      </div>
+
+      <div class="login-form">
+        <div class="control-group">
+        <input type="text" class="login-field" value="" placeholder="username" id="login-name">
+        <label class="login-field-icon fui-user" for="login-name"></label>
+        </div>
+
+        <div class="control-group">
+        <input type="password" class="login-field" value="" placeholder="password" id="login-pass">
+        <label class="login-field-icon fui-lock" for="login-pass"></label>
+        </div>
+
+        <a class="btn btn-primary btn-large btn-block" href="#">login</a>
+        <a class="btn btn-primary btn-large btn-block" href="#">Crear cuenta</a>
+        <a class="btn btn-primary btn-large btn-block" id="cancelarLogin" href="#">Cancelar</a>
+        <a class="login-link" href="#">Lost your password?</a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- --------------barra navegación----------- -->
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">      <img src="img-index/los pollos hermanos.png" alt="" width="115" height="90"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" id="inicio" aria-current="page" href="#">Inicio</a>
+        </li>
+<!--         <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos benéficos</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="menuLinkBoton" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menú
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" id="sobreProyecto" href="#" tabindex="-1" aria-disabled="true">Sobre este proyecto</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+
+      </form>
+      <button type="button" class="btn btn-warning" id="login">Log in</button>
+
+    </div>
+  </div>
+</nav>
+
+<!-- ------------------login pop up------------------------ -->
+
+
+
+<!-- -----------------------sticky box div----------------- -->
+
+<div class="card" id="carta"  style="width: 18rem;">
+  <div class="card-body">
+<!--     <h5 class="card-title">Mi pedido</h5>
+ -->    <p class="card-text">Acá podés ver los productos que quieras comprar!</p>
+    <p id="lineas">-----------------</p>
+    <p class="productos" id="list"></p>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col">total:</div>
+        <div class="col" id="totalInt">0</div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+<!-- -------------------categorias index--------------------- -->
+<div class="cuerpoMenu">
+<div class="content">
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img  class="foto" href="#app" src="img-index/menuJSON/comboPollo.jpg">
+     <div class="menu" href="#pollo">Pollo</div>
+    </div>
+    <div class="col-sm">
+      <img  class="foto" src="img-index/menuJSON/combos.jpg">
+      <div class="menu" ><span>Combos</span></div>
+    </div>
+    <div class="col-sm">
+      <img class="foto" src="img-index/menuJSON/comboEnsalada.jpg">
+      <div class="menu">Ensaladas</div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img  class="foto" src="img-index/menuJSON/sanguches.jpg">
+     <div class="menu">Sanguches</div>
+    </div>
+    <div class="col-sm">
+      <img  class="foto" src="img-index/menuJSON/bebidas.jpg">
+      <div class="menu" ><span>Bebidas</span></div>
+    </div>
+    <div class="col-sm">
+      <img class="foto" src="img-index/menuJSON/Guarniciones.jpg">
+      <div class="menu">Guarniciones</div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- ------------------divs productos------------- -->
+  <h3 class="apartadoClaseEnsaladas" style="font-weight: bold;"> Ensaladas </h3>
+
+<div class="container" id="app">
+  <div class="row" id="ensaladas"></div>
+  <h3 class="apartadoClaseEnsaladas" style="font-weight: bold;">Combos</h3>
+  <div class="row" id="combos"></div>
+  <h3 class="apartadoClaseEnsaladas" style="font-weight: bold;">Pollo</h3>
+  <div class="row" id="pollo"></div>
+</div>
+
+
+
+
+
+<!-- -------------divs productos fin-------------- -->
+
+
+
+<script src="../js/menuJSON.js"></script>
+  </body>
+</html>

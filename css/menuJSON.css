@@ -1,0 +1,253 @@
+@font-face{
+	src: url(../html/fonts/Rubik_Dirt/RubikDirt-Regular.ttf) ;
+	font-family: rubikDirt;
+}
+
+/*------------popup login-----------*/
+
+
+
+/*---------------nav bar--------------------*/
+
+
+.navbar-brand{
+  border: 10px ;
+  border-color: yellow;
+}
+
+#login{
+  margin-left: 50%
+
+}
+
+#sobreProyecto{background-color: red;
+border-radius: 1rem;
+font-weight: bold;}
+
+
+
+#login{
+  margin-left: 50%
+
+}
+
+
+
+
+/*-------------------------------------------*/
+
+
+.foto{
+	
+	height: 300px;
+	width: 300px;
+	padding: 30px;
+}
+
+.cuerpoMenu{
+background-image: linear-gradient(315deg, #ff4e00 0%, #ec9f05 74%);}
+
+.menu {
+  width: 300px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  font-family: rubikDirt;
+  font-size: 300%;
+
+
+}
+
+
+.apartadoClaseEnsaladas{
+	margin-left: 20%;
+	margin-top: 5%;
+	padding: 15px;
+	font-style: strong;
+}
+
+
+
+#enviarBtn{
+/*	position: fixed;
+*/	margin-top:10px;
+	margin-left: 70px;
+
+}
+
+.apartadoClase{
+	margin-top: 45px;
+}
+
+.apartadoClasePollo{
+
+}
+
+
+
+/*--------------CARRITO---------------*/
+#carta{
+
+align-self: start;
+    position: fixed;
+  top: 20%;
+z-index: 999;
+
+}
+
+
+.col-sm{
+		padding-top: 1rem;
+}
+.card{
+	width: 18rem;
+
+}
+
+.card-title{  display: flex;
+
+  align-items: center;
+  justify-content: center;}
+
+.precio{  display: flex;
+
+  align-items: center;
+  justify-content: center;}
+
+.card-text{  display: flex;
+
+  align-items: center;
+  justify-content: center;}
+
+  .container{
+	padding:25px;
+/*	position: absolute;
+*/}
+
+#tamañoInput{
+		padding-right: 25px;
+
+}
+
+.inputCantidadDeUnidades{
+size:10px;
+-webkit-appearance: none;
+  margin: 0;
+    -moz-appearance: textfield;
+    	height: 50px;
+	width: 50px;
+	
+/*	padding-right: 25px;*/
+	text-align: center;
+
+}
+
+
+/*------------------pop up login -----------------------*/
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+/*body {
+font-family: Arial;
+background-color: #3498DB;
+padding: 50px;
+}*/
+.login {
+margin: 20px auto;
+width: 300px;
+     
+}
+.login-screen {
+background-color: orange;
+padding: 20px;
+border-radius: 35px;
+border-color: orange;
+
+}
+
+.app-title {
+text-align: center;
+color: #777;
+}
+
+.login-form {
+text-align: center;
+
+}
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #ECF0F1;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 16px;
+font-weight: 200;
+padding: 10px 0;
+width: 250px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+/*.btn {
+  border: 2px solid transparent;
+  background: #3498DB;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}*/
+
+.btn:hover {
+  background-color: #2980B9;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+  margin-top: 12px;
+}
+/*------------------------*/
+
+/*#cuerpoDivLogin{
+  padding: 20%;
+}*/
+
+.blur   {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+}
+#divLogin    {
+    position: fixed;
+    display: none;
+    left: 0%;
+    top: 25%;
+    right: 0%;
+    bottom: 0%;
+/*   background: rgba(255,255,255,.8);*/
+    z-index: 999;
+
+}
